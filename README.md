@@ -1,6 +1,12 @@
 # Awesome AI Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-An opinionated list of AI tools for generative AI tools and LLMs. Feel free to send a PR!
+An opinionated collection of AI tools, models, and productivity solutions for developers and researchers. Explore the evolving AI landscape – contributions welcome!
+
+**Legend**: 
+- ⭐ Author's top pick
+- 🆕 New addition
+- 🌟 Community favorite
+- 💡 Innovative tool
 
 ## Contents
 
@@ -19,21 +25,19 @@ An opinionated list of AI tools for generative AI tools and LLMs. Feel free to s
 
 ## AI Models
 
+- ⭐ [Claude](https://www.anthropic.com/claude) - Talk to Claude, an AI assistant from Anthropic.
 - [OpenAI API](https://openai.com/api/) - OpenAI's API provides access to GPT-3 and GPT-4 models, which performs a wide variety of natural language tasks, and Codex, which translates natural language to code.
-- [Claude](https://www.anthropic.com/claude) - Talk to Claude, an AI assistant from Anthropic.
-- [Llama 2](https://ai.meta.com/llama/) - The next generation of Meta's open source large language model. #opensource
-- [Mistral AI](https://mistral.ai/) - Advanced open-weight models with state-of-the-art performance.
-- [Gemini](https://deepmind.google/technologies/gemini/) - Google's family of multimodal AI models.
+- [Llama 2](https://ai.meta.com/llama/) - The next generation of Meta's open source large language model.
 
 ## AI Front Ends
 
-- [Claude](https://www.anthropic.com/claude) - Desktop app to interact with Claude, models from Anthropic.
+- ⭐ [Claude](https://www.anthropic.com/claude) - Desktop app to interact with Claude, models from Anthropic.
 - [ChatGPT](https://openai.com/chatgpt/download/) - Desktop app to interact with ChatGPT, models from OpenAI.
 - [AnythingLLM](https://anythingllm.com/) - UI with agent integration to communicate with several model providers, supporting cloud and local models.
 
 ## AI Back Ends
 
-- [Pieces OS](https://pieces.app) - A long-term memory agent that captures your work across IDEs, browsers, applications. Supports local and cloud models.
+- 💡 [Pieces OS](https://pieces.app) - A long-term memory agent that captures your work across IDEs, browsers, applications. Supports local and cloud models.
 - [Ollama](https://ollama.com/) - Run LLMs locally.
 
 ## Model Context Protocol (MCP)
@@ -50,71 +54,69 @@ An opinionated list of AI tools for generative AI tools and LLMs. Feel free to s
 
 ### MCP Security
 
-- [MCP-Scan](https://github.com/invariantlabs-ai/mcp-scan) - Security scanner for MCP servers
+- [MCP-Scan](https://github.com/invariantlabs-ai/mcp-scan) - Security scanner for MCP servers.
 
 ### MCP Servers
 
-- [Filesystem](https://mcpservers.org/servers/modelcontextprotocol/filesystem) - Interact with your local filesystem.
+- ⭐ [Filesystem](https://mcpservers.org/servers/modelcontextprotocol/filesystem) - Interact with your local filesystem.
+- ⭐ [Terminal Controller](https://mcp.so/server/terminal-controller-mcp) - Secure terminal command execution, directory navigation, and file system operations.
 - [Fetch](https://mcpservers.org/servers/modelcontextprotocol/fetch) - Fetch content from the web.
 - [Obsidian](https://mcpservers.org/servers/MarkusPfundstein/mcp-obsidian) - Interact with Obsidian notes.
-- [Terminal Controller](https://mcp.so/server/terminal-controller-mcp) - Secure terminal command execution, directory navigation, and file system operations.
 
 ## AI Code Assistants
 
-- [Cline](https://cline.bot/) - Coding assistant with bring-your-own-API-key integrations for most LLMs (very expensive with Claude 3.7 Sonnet, though)
-- [Roo Code](https://github.com/RooVetGit/Roo-Code) - A fork of Cline
+- ⭐ [Cline](https://cline.bot/) - Coding assistant with bring-your-own-API-key integrations for most LLMs (very expensive with Claude 3.7 Sonnet, though).
+- [Roo Code](https://github.com/RooVetGit/Roo-Code) - A fork of Cline.
 - [Replit Ghostwriter](https://replit.com/site/ghostwriter) - Meet Ghostwriter, your partner in code.
-- [Codeium](https://codeium.com/) - Free AI-powered code acceleration toolkit.
+- [Windsurf](https://windsurf.com) - Free AI-powered code acceleration toolkit.
 - [GitHub Copilot](https://github.com/features/copilot) - Your AI pair programmer.
 - [CodeWhisperer](https://aws.amazon.com/codewhisperer/) - Machine learning-powered coding companion from AWS.
 
 ## AI Terminals
 
-- [Warp](https://www.warp.dev/) - a terminal with native AI integration
-- [Butterfish](https://butterfi.sh) - an AI wrapper for your terminal
+- ⭐ [Warp](https://www.warp.dev/) - A terminal with native AI integration.
+- 💡 [Butterfish](https://butterfi.sh) - An AI wrapper for your terminal.
 
 ## AI IDEs
 
-- [Cursor](https://www.cursor.com/) - IDE with native agent integrations and compatibility with different model providers. See [MCPs](#mcps) for possible MCP integrations for Cursor.
-- [VSCode](https://code.visualstudio.com) - IDE that got a lot better with recent plugins
-  - [Pieces Plugin](https://pieces.app/plugins/vs-code) - Interact with Pieces from VSCode
-  - [Cline](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) - Coding assistant with bring-your-own-API-key integrations for most LLMs (very expensive with Claude 3.7 Sonnet, though)
-  - [Roo Code](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) - A fork of Cline
-  - [GitHub Copilot](https://github.com/features/copilot) - In-IDE coding assistant
+- ⭐ [VSCode](https://code.visualstudio.com) - IDE that got a lot better with recent plugins.
+  - ⭐ [Cline](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) - Coding assistant with bring-your-own-API-key integrations for most LLMs (very expensive with Claude 3.7 Sonnet, though).
+  - [Roo Code](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) - A fork of Cline.
+  - [GitHub Copilot](https://github.com/features/copilot) - In-IDE coding assistant.
+  - [Pieces Plugin](https://pieces.app/plugins/vs-code) - Interact with Pieces from VSCode.
+- ⭐ [Cursor](https://www.cursor.com/) - IDE with native agent integrations and compatibility with different model providers. See [MCPs](#mcps) for possible MCP integrations for Cursor.
 - [IntelliJ](https://www.jetbrains.com/idea/)
-  - [Switch2Cursor](https://plugins.jetbrains.com/plugin/26309-switch2cursor) - Quickly switch from IntelliJ to Cursor
-  - [Pieces Plugin](https://pieces.app/plugins/jetbrains) - Interact with Pieces OS from IntelliJ
-  - [GitHub Copilot](https://plugins.jetbrains.com/plugin/17718-github-copilot) - In-IDE coding assistant
+  - [Switch2Cursor](https://plugins.jetbrains.com/plugin/26309-switch2cursor) - Quickly switch from IntelliJ to Cursor.
+  - [Pieces Plugin](https://pieces.app/plugins/jetbrains) - Interact with Pieces OS from IntelliJ.
+  - [GitHub Copilot](https://plugins.jetbrains.com/plugin/17718-github-copilot) - In-IDE coding assistant.
 
 ## AI Git
 
-- [OpenCommit](https://github.com/di-sukharev/opencommit) - Intelligent commit messages with LLMs
+- ⭐ [OpenCommit](https://github.com/di-sukharev/opencommit) - Intelligent commit messages with LLMs.
 
 ## AI Web Browsers
 
-- [Opera](https://www.opera.com/) - A browser with several native AI tooling integrations like ChatGPT and Aria
-- [Arc](https://arc.net/) - A browser with several AI features like contextual chat on a page
-- [Pieces Web Extension](https://pieces.app/plugins/web-extension) - Interact with Pieces and web content in your web browser
+- ⭐ [Opera](https://www.opera.com/) - A browser with several native AI tooling integrations like ChatGPT and Aria.
+- ⭐ [Arc](https://arc.net/) - A browser with several AI features like contextual chat on a page.
+
+## AI Browser Extensions
+- [Pieces Web Extension](https://pieces.app/plugins/web-extension) - Interact with Pieces and web content in your web browser.
 
 ## AI Productivity
 
 - [Obsidian](https://obsidian.md) - End-to-end encrypted note taking service.
-  - [Pieces Plugin](https://pieces.app/plugins/obsidian) - A plugin to allow interaction with Pieces OS
-  - [mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian) - Interact with your Obsidian notes from Claude via MCP
-- [Fabric](https://github.com/danielmiessler/fabric) - Standardized components for prompting AI to interact with information
+  - [Pieces Plugin](https://pieces.app/plugins/obsidian) - A plugin to allow interaction with Pieces OS.
+  - [mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian) - Interact with your Obsidian notes from Claude via MCP.
+- 💡 [Fabric](https://github.com/danielmiessler/fabric) - Standardized components for prompting AI to interact with information.
 
 ## AI Image Generation
 
-- [Ideogram](https://ideogram.ai) - Generate images from text
+- [Ideogram](https://ideogram.ai) - Generate images from text.
 
 ## AI Research
 
-- [Perplexity](https://www.perplexity.ai/) - AI-powered search engine and research assistant.
-- [Elicit](https://elicit.org/) - AI research assistant that helps you find, understand, and summarize research papers.
-- [SciSpace](https://typeset.io/) - Discover, read, and understand research papers.
-- [Consensus](https://consensus.app/) - Search engine that uses AI to find answers in scientific research.
-- [Connected Papers](https://www.connectedpapers.com/) - Explore connected papers in a visual graph.
-- [Fabric](https://github.com/danielmiessler/fabric) - Standardized components for prompting AI to interact with information
+- ⭐ [Perplexity](https://www.perplexity.ai/) - AI-powered search engine and research assistant.
+- 💡 [Fabric](https://github.com/danielmiessler/fabric) - Standardized components for prompting AI to interact with information.
 
 ## License
 
