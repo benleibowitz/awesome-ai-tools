@@ -10,6 +10,7 @@ An opinionated collection of AI tools, models, and productivity solutions for de
 
 ## Contents
 
+- [Quick Start](#quick-start)
 - [AI Models](#ai-models)
 - [AI Front Ends](#ai-front-ends)
 - [AI Back Ends](#ai-back-ends)
@@ -23,6 +24,15 @@ An opinionated collection of AI tools, models, and productivity solutions for de
 - [AI Image Generation](#ai-image-generation)
 - [AI Research](#ai-research)
 
+## Quick Start
+
+If you're new to AI tooling and want some simple, easy ways to get your feet wet, I recommend:
+- [Cursor](#cursor) - an IDE with AI
+- [Warp](#warp) - an terminal with AI
+- [Perplexity](#perplexity) - smarter web search
+- [Claude Desktop](#claude-desktop) + a [simple filesystem MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem#usage-with-claude-desktop) to get started with MCP
+  - Ask Claude "what files are in my downloads folder?" or "write a simple Python script in my Downloads folder"
+
 ## AI Models
 
 - ⭐ [Claude](https://www.anthropic.com/claude) - Talk to Claude, an AI assistant from Anthropic.
@@ -31,7 +41,7 @@ An opinionated collection of AI tools, models, and productivity solutions for de
 
 ## AI Front Ends
 
-- ⭐ [Claude](https://www.anthropic.com/claude) - Desktop app to interact with Claude, models from Anthropic.
+- ⭐ <a id="claude-desktop">[Claude Desktop](https://claude.ai/download)</a> - Desktop app to interact with Claude, models from Anthropic.
 - [ChatGPT](https://openai.com/chatgpt/download/) - Desktop app to interact with ChatGPT, models from OpenAI.
 - [AnythingLLM](https://anythingllm.com/) - UI with agent integration to communicate with several model providers, supporting cloud and local models.
 
@@ -74,7 +84,7 @@ An opinionated collection of AI tools, models, and productivity solutions for de
 
 ## AI Terminals
 
-- ⭐ [Warp](https://www.warp.dev/) - A terminal with native AI integration.
+- ⭐ <a id="warp">[Warp](https://www.warp.dev/)</a> - A terminal with native AI integration.
 - 💡 [Butterfish](https://butterfi.sh) - An AI wrapper for your terminal.
 
 ## AI IDEs
@@ -84,7 +94,7 @@ An opinionated collection of AI tools, models, and productivity solutions for de
   - [Roo Code](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) - A fork of Cline.
   - [GitHub Copilot](https://github.com/features/copilot) - In-IDE coding assistant.
   - [Pieces Plugin](https://pieces.app/plugins/vs-code) - Interact with Pieces from VSCode.
-- ⭐ [Cursor](https://www.cursor.com/) - IDE with native agent integrations and compatibility with different model providers. See [MCPs](#mcps) for possible MCP integrations for Cursor.
+- ⭐ <a id="cursor">[Cursor](https://www.cursor.com/)</a> - IDE with native agent integrations and compatibility with different model providers. See [MCPs](#mcps) for possible MCP integrations for Cursor.
 - [IntelliJ](https://www.jetbrains.com/idea/)
   - [Switch2Cursor](https://plugins.jetbrains.com/plugin/26309-switch2cursor) - Quickly switch from IntelliJ to Cursor.
   - [Pieces Plugin](https://pieces.app/plugins/jetbrains) - Interact with Pieces OS from IntelliJ.
@@ -115,7 +125,7 @@ An opinionated collection of AI tools, models, and productivity solutions for de
 
 ## AI Research
 
-- ⭐ [Perplexity](https://www.perplexity.ai/) - AI-powered search engine and research assistant.
+- ⭐ <a id="perplexity">[Perplexity](https://www.perplexity.ai/)</a> - AI-powered search engine and research assistant.
 - 💡 [Fabric](https://github.com/danielmiessler/fabric) - Standardized components for prompting AI to interact with information.
 
 ## License
