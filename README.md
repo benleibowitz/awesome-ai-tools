@@ -2,7 +2,7 @@
 
 An opinionated collection of AI tools, models, and productivity solutions for developers and researchers. Explore the evolving AI landscape – contributions welcome!
 
-**Legend**: 
+**Legend**:
 - ⭐ Author's top pick
 - 🆕 New addition
 - 🌟 Community favorite
@@ -12,7 +12,7 @@ An opinionated collection of AI tools, models, and productivity solutions for de
 
 - [Quick Start](#quick-start)
 - [AI Models](#ai-models)
-- [AI Front Ends](#ai-front-ends)
+- [LLM Clients](#llm-clients)
 - [AI Back Ends](#ai-back-ends)
 - [Model Context Protocol (MCP)](#model-context-protocol-mcp)
 - [AI Code Assistants](#ai-code-assistants)
@@ -39,11 +39,12 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 - [OpenAI API](https://openai.com/api/) - OpenAI's API provides access to GPT-3 and GPT-4 models, which performs a wide variety of natural language tasks, and Codex, which translates natural language to code.
 - [Llama 2](https://ai.meta.com/llama/) - The next generation of Meta's open source large language model.
 
-## AI Front Ends
+## LLM Clients
 
-- ⭐ <a id="claude-desktop">[Claude Desktop](https://claude.ai/download)</a> - Desktop app to interact with Claude, models from Anthropic.
-- [ChatGPT](https://openai.com/chatgpt/download/) - Desktop app to interact with ChatGPT, models from OpenAI.
+- ⭐ [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) - Terminal integration with Anthropic's Claude models. Supports MCP.
+- ⭐ <a id="claude-desktop">[Claude Desktop](https://claude.ai/download)</a> - Desktop app to interact with Claude, models from Anthropic. Supports MCP
 - [AnythingLLM](https://anythingllm.com/) - UI with agent integration to communicate with several model providers, supporting cloud and local models.
+- [ChatGPT](https://openai.com/chatgpt/download/) - Desktop app to interact with ChatGPT, models from OpenAI.
 
 ## AI Back Ends
 
@@ -70,7 +71,8 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 
 - ⭐ [Filesystem](https://mcpservers.org/servers/modelcontextprotocol/filesystem) - Interact with your local filesystem.
 - ⭐ [Terminal Controller](https://mcp.so/server/terminal-controller-mcp) - Secure terminal command execution, directory navigation, and file system operations.
-- [Fetch](https://mcpservers.org/servers/modelcontextprotocol/fetch) - Fetch content from the web.
+- ⭐ [Playwright](https://github.com/microsoft/playwright-mcp) - Interact with Playwright for automating browser actions.
+- [Fetch](https://mcpservers.org/servers/modelcontextprotocol/fetch) - Fetch content from the web. Many apps can do this natively.
 - [Obsidian](https://mcpservers.org/servers/MarkusPfundstein/mcp-obsidian) - Interact with Obsidian notes.
 
 ## AI Code Assistants
@@ -131,5 +133,3 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 ## License
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the author has waived all copyright and related or neighboring rights to this work.
