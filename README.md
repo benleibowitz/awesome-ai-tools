@@ -42,9 +42,11 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 ## LLM Clients
 
 - ⭐ [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) - Terminal integration with Anthropic's Claude models. Supports MCP.
+- [OpenCode](https://opencode.ai/) - Open source CLI for using most LLM providers' models. This was good until Anthropic disallowed it in their terms of service unless you pay for API access (which is more expensive). Also, they're always a few steps behind Claude Code because they're trying to replicate all the new features.
 - ⭐ <a id="claude-desktop">[Claude Desktop](https://claude.ai/download)</a> - Desktop app to interact with Claude, models from Anthropic. Supports MCP
+- [OpenAI Codex](https://openai.com/codex/) - OpenAI's CLI tool for using their models
+- [Google Gemini CLI](https://geminicli.com/) - Google's CLI tool for using their models
 - [AnythingLLM](https://anythingllm.com/) - UI with agent integration to communicate with several model providers, supporting cloud and local models.
-- [ChatGPT](https://openai.com/chatgpt/download/) - Desktop app to interact with ChatGPT, models from OpenAI.
 
 ## AI Back Ends
 
@@ -69,6 +71,7 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 
 ### MCP Servers
 
+- ⭐ [AWS MCP servers](https://github.com/awslabs/mcp) - Interact with AWS services
 - ⭐ [Filesystem](https://mcpservers.org/servers/modelcontextprotocol/filesystem) - Interact with your local filesystem.
 - ⭐ [Terminal Controller](https://mcp.so/server/terminal-controller-mcp) - Secure terminal command execution, directory navigation, and file system operations.
 - ⭐ [Playwright](https://github.com/microsoft/playwright-mcp) - Interact with Playwright for automating browser actions.
@@ -77,7 +80,7 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 
 ## AI Code Assistants
 
-- ⭐ [Cline](https://cline.bot/) - Coding assistant with bring-your-own-API-key integrations for most LLMs (very expensive with Claude 3.7 Sonnet, though).
+- ⭐ [Cline](https://cline.bot/) - Coding assistant with bring-your-own-API-key integrations for most LLMs (very expensive with Claude, though).
 - [Roo Code](https://github.com/RooVetGit/Roo-Code) - A fork of Cline.
 - [Replit Ghostwriter](https://replit.com/site/ghostwriter) - Meet Ghostwriter, your partner in code.
 - [Windsurf](https://windsurf.com) - Free AI-powered code acceleration toolkit.
@@ -87,7 +90,6 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 ## AI Terminals
 
 - ⭐ <a id="warp">[Warp](https://www.warp.dev/)</a> - A terminal with native AI integration.
-- 💡 [Butterfish](https://butterfi.sh) - An AI wrapper for your terminal.
 
 ## AI IDEs
 
@@ -104,7 +106,7 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 
 ## AI Git
 
-- ⭐ [OpenCommit](https://github.com/di-sukharev/opencommit) - Intelligent commit messages with LLMs.
+- [OpenCommit](https://github.com/di-sukharev/opencommit) - Intelligent commit messages with LLMs.
 
 ## AI Web Browsers
 
