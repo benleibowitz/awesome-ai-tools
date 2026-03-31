@@ -52,6 +52,7 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 
 - 💡 [Pieces OS](https://pieces.app) - A long-term memory agent that captures your work across IDEs, browsers, applications. Supports local and cloud models.
 - [Ollama](https://ollama.com/) - Run LLMs locally.
+- [Headroom](https://github.com/chopratejas/headroom) - Context compression system that reduces token usage by 70-95% while preserving accuracy. Works as a proxy, library, or framework integration.
 
 ## Model Context Protocol (MCP)
 
@@ -86,10 +87,12 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 - [Windsurf](https://windsurf.com) - Free AI-powered code acceleration toolkit.
 - [GitHub Copilot](https://github.com/features/copilot) - Your AI pair programmer.
 - [CodeWhisperer](https://aws.amazon.com/codewhisperer/) - Machine learning-powered coding companion from AWS.
+- [Superpowers](https://github.com/obra/superpowers) - Composable skills framework that automates development workflows (brainstorming, TDD, debugging, code review) for AI coding agents across Claude Code, Cursor, Codex, and more.
 
 ## AI Terminals
 
 - ⭐ <a id="warp">[Warp](https://www.warp.dev/)</a> - A terminal with native AI integration.
+- [RTK](https://github.com/rtk-ai/rtk) - High-performance CLI proxy that compresses command outputs by 60-90% to reduce LLM token consumption. Supports 100+ commands across git, build tools, and more.
 
 ## AI IDEs
 
