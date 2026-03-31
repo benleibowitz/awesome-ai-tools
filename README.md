@@ -26,12 +26,7 @@ An opinionated collection of AI tools, models, and productivity solutions for de
 
 ## Quick Start
 
-If you're new to AI tooling and want some simple, easy ways to get your feet wet, I recommend:
-- [Cursor](#cursor) - an IDE with AI
-- [Warp](#warp) - an terminal with AI
-- [Perplexity](#perplexity) - smarter web search
-- [Claude Desktop](#claude-desktop) + a [simple filesystem MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem#usage-with-claude-desktop) to get started with MCP
-  - Ask Claude "what files are in my downloads folder?" or "write a simple Python script in my Downloads folder"
+If you're new to AI tooling and want some simple, easy ways to get your feet wet, I recommend Claude Code.
 
 ## AI Models
 
