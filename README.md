@@ -11,10 +11,9 @@ An opinionated collection of AI tools, models, and productivity solutions for de
 ## Contents
 
 - [Quick Start](#quick-start)
-- [AI Models](#ai-models)
 - [LLM Clients](#llm-clients)
 - [AI Back Ends](#ai-back-ends)
-- [Model Context Protocol (MCP)](#model-context-protocol-mcp)
+- [MCP, Skills, and Plugins](#model-context-protocol-mcp)
 - [AI Code Assistants](#ai-code-assistants)
 - [AI Terminals](#ai-terminals)
 - [AI IDEs](#ai-ides)
@@ -28,15 +27,11 @@ An opinionated collection of AI tools, models, and productivity solutions for de
 
 If you're new to AI tooling and want some simple, easy ways to get your feet wet, I recommend Claude Code.
 
-## AI Models
-
-- ⭐ [Claude](https://www.anthropic.com/claude) - Talk to Claude, an AI assistant from Anthropic.
-- [OpenAI API](https://openai.com/api/) - OpenAI's API provides access to GPT-3 and GPT-4 models, which performs a wide variety of natural language tasks, and Codex, which translates natural language to code.
-- [Llama 2](https://ai.meta.com/llama/) - The next generation of Meta's open source large language model.
-
 ## LLM Clients
 
 - ⭐ [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) - Terminal integration with Anthropic's Claude models. Supports MCP.
+  - ⭐ [RTK](https://github.com/rtk-ai/rtk) - High-performance CLI proxy that compresses command outputs by 60-90% to reduce LLM token consumption. Supports 100+ commands across git, build tools, and more.
+  - ⭐ [Headroom](https://github.com/chopratejas/headroom) - Context compression system that reduces token usage by 70-95% while preserving accuracy. Works as a proxy, library, or framework integration.
 - [OpenCode](https://opencode.ai/) - Open source CLI for using most LLM providers' models. This was good until Anthropic disallowed it in their terms of service unless you pay for API access (which is more expensive). Also, they're always a few steps behind Claude Code because they're trying to replicate all the new features.
 - ⭐ <a id="claude-desktop">[Claude Desktop](https://claude.ai/download)</a> - Desktop app to interact with Claude, models from Anthropic. Supports MCP
 - [OpenAI Codex](https://openai.com/codex/) - OpenAI's CLI tool for using their models
@@ -47,9 +42,12 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 
 - 💡 [Pieces OS](https://pieces.app) - A long-term memory agent that captures your work across IDEs, browsers, applications. Supports local and cloud models.
 - [Ollama](https://ollama.com/) - Run LLMs locally.
-- [Headroom](https://github.com/chopratejas/headroom) - Context compression system that reduces token usage by 70-95% while preserving accuracy. Works as a proxy, library, or framework integration.
 
-## Model Context Protocol (MCP)
+## MCP, Skills, and Plugins
+
+### Skill Lists
+
+- [Claude Skills](https://github.com/anthropics/skills/tree/main/skills)
 
 ### MCP Lists
 
@@ -76,22 +74,22 @@ If you're new to AI tooling and want some simple, easy ways to get your feet wet
 
 ## AI Code Assistants
 
-- ⭐ [Cline](https://cline.bot/) - Coding assistant with bring-your-own-API-key integrations for most LLMs (very expensive with Claude, though).
+- [Cline](https://cline.bot/) - Coding assistant with bring-your-own-API-key integrations for most LLMs (very expensive with Claude, though).
 - [Roo Code](https://github.com/RooVetGit/Roo-Code) - A fork of Cline.
 - [Replit Ghostwriter](https://replit.com/site/ghostwriter) - Meet Ghostwriter, your partner in code.
 - [Windsurf](https://windsurf.com) - Free AI-powered code acceleration toolkit.
 - [GitHub Copilot](https://github.com/features/copilot) - Your AI pair programmer.
 - [CodeWhisperer](https://aws.amazon.com/codewhisperer/) - Machine learning-powered coding companion from AWS.
-- [Superpowers](https://github.com/obra/superpowers) - Composable skills framework that automates development workflows (brainstorming, TDD, debugging, code review) for AI coding agents across Claude Code, Cursor, Codex, and more.
+- ⭐ [Superpowers](https://github.com/obra/superpowers) - Composable skills framework that automates development workflows (brainstorming, TDD, debugging, code review) for AI coding agents across Claude Code, Cursor, Codex, and more.
 
 ## AI Terminals
 
 - ⭐ <a id="warp">[Warp](https://www.warp.dev/)</a> - A terminal with native AI integration.
-- [RTK](https://github.com/rtk-ai/rtk) - High-performance CLI proxy that compresses command outputs by 60-90% to reduce LLM token consumption. Supports 100+ commands across git, build tools, and more.
 
 ## AI IDEs
 
 - ⭐ [VSCode](https://code.visualstudio.com) - IDE that got a lot better with recent plugins.
+  - ⭐ [Claude Code](https://code.claude.com/docs/en/vs-code)
   - ⭐ [Cline](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) - Coding assistant with bring-your-own-API-key integrations for most LLMs (very expensive with Claude 3.7 Sonnet, though).
   - [Roo Code](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline) - A fork of Cline.
   - [GitHub Copilot](https://github.com/features/copilot) - In-IDE coding assistant.
